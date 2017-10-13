@@ -31,7 +31,9 @@ def won?(board)
 
 def full?(board)
     board.all? do |status|
-      status == " "
+      if status == " "
       return false
+    else
+      return true
   end
 end
