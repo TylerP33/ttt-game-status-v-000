@@ -52,7 +52,7 @@ def full?(board)
 end
 
 def winner(board)
-    
+
       return "O"
     else
   end
