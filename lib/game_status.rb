@@ -33,6 +33,7 @@ def full?(board)
   if board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
     return false
   end
+  
   if board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
     return true
 end
