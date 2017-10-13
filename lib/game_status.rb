@@ -29,9 +29,9 @@ def won?(board)
          end
       end
 
-      def full?(board)
-        board.all? do |complete|
-          if complete != " "
+def full?(board)
+    board.all? do |complete|
+      if complete != " "
           else
             false
           end
