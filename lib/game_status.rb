@@ -52,5 +52,6 @@ def full?(board)
 end
 
 def winner(board)
-"O"
+  if won?(board) = "X", "X", "X"
+    
 end
