@@ -11,8 +11,9 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.detect do |combinations|
-    WIN_COMBINATIONS[0] || WIN_COMBINATIONS[1]
-
+    win_index_1 = win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_3 = win_combination[2]
 
 
 
