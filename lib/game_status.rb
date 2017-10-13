@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.select do |combinations|
-    combinations[0][0] == true
+    combinations[0]
 
 
    end
