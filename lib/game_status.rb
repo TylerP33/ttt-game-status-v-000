@@ -34,3 +34,10 @@ def full?(board)
       complete != " "
       end
   end
+
+  def draw?(board)
+    board.all? do |draw|
+      draw != WIN_COMBINATIONS
+    end 
+    
+    
