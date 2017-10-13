@@ -38,7 +38,6 @@ def full?(board)
   def draw?(board)
     board.all? do |draw|
       if draw != WIN_COMBINATIONS
-        true
     else
       false
       end
