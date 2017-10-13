@@ -40,5 +40,6 @@ def full?(board)
       if draw != WIN_COMBINATIONS
     else
       false
+      end
     end
-    end
+  end
