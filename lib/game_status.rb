@@ -33,5 +33,6 @@ def full?(board)
     if board.all? == "  "
       return false
     else
+      return true
   end
 end
