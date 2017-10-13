@@ -15,5 +15,5 @@ def won?(board)
     if combinations == "0"
       all_"X" = false
    end
-   
+
 end
