@@ -52,8 +52,9 @@ def full?(board)
 end
 
 def winner(board)
-  if WIN_COMBINATIONS
-    return "X" || "O"
-  end
+  if win_combination = won?(board)
+    board[win_combination.first]
+end 
+    
 
 end
