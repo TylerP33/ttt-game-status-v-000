@@ -29,11 +29,11 @@ def won?(board)
          end
       end
 
-def full?(board)
-    board.all? do |status|
-      if status == " "
-      return false
-    else
-      return true
-  end
-end
+      def full?(board)
+        board.all? do |complete|
+          if complete != " "
+          else
+            false
+          end
+        end
+      end
