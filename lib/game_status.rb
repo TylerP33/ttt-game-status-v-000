@@ -39,7 +39,8 @@ def full?(board)
     board.all? do |draw|
       if draw != WIN_COMBINATIONS
         return true
-      else
+      else draw == WIN_COMBINATIONS
+        return false
     end
   end
 end
