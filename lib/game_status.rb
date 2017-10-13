@@ -30,6 +30,6 @@ def won?(board)
       end
 
 def full?(board)
-  if full_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
+  if board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
     return false
   end
