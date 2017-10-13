@@ -52,7 +52,8 @@ def full?(board)
 end
 
 def winner(board)
-  if won?(board) == "X"
+  if WIN_COMBINATIONS
+    return "X" || "O"
   end
 
 end
