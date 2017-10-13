@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.select do |combinations|
     combinations[0] = [board[0], board[1], [board[2]]]
-    
+
 
    end
 
