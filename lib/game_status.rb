@@ -50,3 +50,9 @@ def full?(board)
       return false
   end
 end
+
+def winner(board)
+  if won?(board) == "X"
+  else
+    "O"
+end 
