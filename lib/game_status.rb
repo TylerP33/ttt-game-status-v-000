@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.detect do |combinations|
     WIN_COMBINATIONS[0]
-    WIN_COMBINATIONS[0]
+    
 
 
    end
