@@ -28,3 +28,22 @@ def won?(board)
        end
          end
       end
+
+def full?(board)
+  if incomplete_board = ["X", " ", "X", "O", " ", "X", "O", " ", "O"]
+    return false
+  end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
