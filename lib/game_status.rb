@@ -32,4 +32,4 @@ def won?(board)
 def full?(board)
     board.all? do |complete|
       end
-  end 
+  end
