@@ -39,3 +39,4 @@ def full?(board)
     board.all? do |dr|
       dr != WIN_COMBINATIONS
     end
+    end
