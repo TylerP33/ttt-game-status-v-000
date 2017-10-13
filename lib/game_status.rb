@@ -10,10 +10,9 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  all_"X" = true
-  WIN_COMBINATIONS.each do |combinations|
-    if combinations == "0"
-      all_"X" != true
+  WIN_COMBINATIONS.select do |combinations|
+    combinations[0]
+    
    end
 
 end
