@@ -31,5 +31,6 @@ def won?(board)
 
 def full?(board)
     board.all? do |complete|
+      complete != " "
       end
   end
