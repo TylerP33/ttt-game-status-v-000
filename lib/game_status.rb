@@ -15,7 +15,7 @@ def won?(board)
    combinations[1] == [1]
    combinations[2] == [2]
 
-   
-   
+
+
  end
 end
