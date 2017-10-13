@@ -36,6 +36,6 @@ def full?(board)
   end
 
   def draw?(board)
-    board.all? do |draw|
-      draw != WIN_COMBINATIONS
+    board.all? do |dr|
+      dr != WIN_COMBINATIONS
     end
