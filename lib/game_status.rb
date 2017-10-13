@@ -31,8 +31,8 @@ def won?(board)
 
 def full?(board)
     if board.all? == "  "
-      return false
-    else
       return true
+    else
+      return false
   end
 end
